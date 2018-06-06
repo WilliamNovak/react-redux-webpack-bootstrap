@@ -1,4 +1,4 @@
-import { setToken, setUser } from 'auth/actions'
+import { setToken, setUser } from 'module-auth/actions'
 
 /**
  * Sign in.
@@ -8,7 +8,7 @@ export const signIn = (payload = false) => {
     return dispatch => {
         let token = 'sense8,houseofcards,vikings,westworld,gameofthrones'
         dispatch([
-            setUser(payload)
+            setUser(payload),
             setToken(token)
         ])
     }

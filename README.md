@@ -1,4 +1,4 @@
-# React + Redux + Webpack + Bootstrap 4
+# React + Redux + Redux Thunk + Redux Multi + Redux Promise + Redux Forms + Webpack + Bootstrap 4
 
 Simple and Scalable Web Application Boilerplate.
 

@@ -1,4 +1,4 @@
-import type from 'auth/types'
+import type from 'module-auth/types'
 import { ADMIN_GUEST, USER, TOKEN } from 'constants'
 
 const INITIAL_STATE = {

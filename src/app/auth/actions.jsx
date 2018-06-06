@@ -1,4 +1,4 @@
-import type from './types'
+import type from 'module-auth/types'
 
 export const logOut = () => ({
     type: type.USER_LOGOUT,

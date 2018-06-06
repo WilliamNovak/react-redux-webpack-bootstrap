@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { logOut } from 'auth/actions'
-import View from 'auth/components/logOut/view'
+import { logOut } from 'module-auth/actions'
+import View from 'module-auth/components/logOut/view'
 
 /**
  * Component LogOut.
@@ -19,7 +19,7 @@ class LogOut extends Component {
     render() {
 
         return <View />
-        
+
     }
 }
 
