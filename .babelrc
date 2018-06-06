@@ -1,0 +1,24 @@
+{
+    "presets": [
+        "react", [
+            "env", {
+                "targets": {"uglify": true},
+                "useBuiltIns": true
+            }
+        ]
+    ],
+    "plugins": ["react-hot-loader/babel"],
+    "env": {
+        "browser": {
+            "plugins": [
+                ["transform-imports", {
+                    "redux-form": {
+                        "transform": "redux-form/es/${member}",
+                        "preventFullImport": true
+                    }
+                    }
+                ]
+            ]
+        }
+    }
+}

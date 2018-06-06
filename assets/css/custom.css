@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:100,300,400,500,700');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fafafa;
+}
+
+/* azul 227bbc */
+/* amarelo e6b962 */
+
+
+/*
+ SIGN IN
+ */
+.form-signin .form-signin-heading {
+    margin-bottom: 10px;
+}
+
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"],
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.login-title {
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    margin: 20px 0;
+}
+
+.profile-img {
+    width: 96px;
+    height: 96px;
+    margin: 100px auto 20px auto;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.new-account {
+    display: block;
+    margin-top: 10px;
+}
+
+
+.title-base {
+    margin: 8px 0 22px 0;
+    width: 100%;
+    clear: both;
+}
+
+.title-base::after {
+    content: ' ';
+    display: block;
+    width: 100px;
+    height: 2.5px;
+    margin-left: 52px;
+    background-color: #007bff;
+}
+
+.section-title {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 100;
+    color: #444;
+}
+
+.section-title .icon {
+    font-size: 24px;
+    margin-right: 20px;
+    color: #007bff;
+}

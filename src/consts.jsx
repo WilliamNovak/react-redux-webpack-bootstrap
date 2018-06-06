@@ -1,0 +1,5 @@
+export const API_URL = 'http://localhost/v1/'
+export const ADMIN_ROLE = 'admin'
+export const GUEST_ROLE = 'guest'
+export const TOKEN = 'token'
+export const USER = 'user'
